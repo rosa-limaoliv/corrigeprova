@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #07a154;
+    background-color: #0b6935;
     justify-content: center;
 }
 
@@ -24,8 +24,7 @@ body{
 }
 
 form {
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin: 30px;
 }
 
 .login img {
@@ -33,25 +32,42 @@ form {
     height: auto;
 }
 
-#titulo{
-    font-family:Heveltica;
-    color: #380B61;
-    margin-left: 7%;
+input[type=text] {
+    padding: auto;
+    margin: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 89%;
 }
 
-fieldset {
-    border: 0;
+input[type=email] {
+    margin: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 89%;
 }
 
-#grupo {
-    border:box;
+input[type=password]{
+    margin: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 89%;
 }
 
-input, select, textarea, button{
-    border-radius: 5px;
+
+select{
+    border-radius: 10px;
+    height: 25px;
+    width: 33%;
 }
 
-.campo {
-    margin-bottom: 1em;
+button[type=submit]{
+    margin: 15px;
+    border-radius: 10px;
+    height: 25px;
+    width: 33%;
 }
 
+#funcao{
+    margin: 10px;
+}

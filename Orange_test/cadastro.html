@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style2.css" media="">
     
 </head>
@@ -12,19 +13,23 @@
         <div class="login img"><img src="ORANGE TEST.png" alt="Essa é uma imagem verde e amarela contendo a logo do nosso site"></div>
         
     <form>
-        <fieldset class="grupo">
             <div>
                 <label for="nome"><Strong>Nome</Strong></label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" autocomplete="off" required>
             </div>
-        </fieldset>
+        
 
         <div class="campo">
-            <label for="sobrenome"><Strong>Email</Strong></label>
-            <input type="email" name="email" id="email" required>
+            <label for="email"><Strong>Email</Strong></label>
+            <input type="email" name="email" id="email" placeholder= "Digite seu email" autocomplete="off"required>
         </div>
 
         <div class="campo">
+            <label for="password"><Strong>Senha</Strong></label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha" autocomplete="off" required>
+        </div>
+
+        <div class="funcao">
            <label><Strong>Selecione o tipo de Usuário</Strong></label>
            <br>
            <label>
@@ -37,7 +42,7 @@
         </div>
 
        <div class="campo">
-            <label><strong>Caso aluno informe sua série/ano</strong></label>
+            <label><strong>Caso aluno, informe sua série/ano</strong></label>
             <select id="serie">
                 <option selected disabled value="">Selecione...</option>
                 <option>1º Ano Fund.</option>
@@ -54,8 +59,10 @@
                 <option>3º Ano Medio</option>
             </select>
        </div>
-       <button class="botao" type="submit">Concluído</button> 
+       <div>
+       <button class="botao" type="submit">Concluído</button>
+    </div>
     </form>
-</div>
+    </div>
 </body>
 </html>
