@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <div>
+        <h1>CADASTRE-SE</h1>
+        <p>Insira seus dados</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </fieldset>
+
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+           <label>Selecione o tipo de Usuário</label>
+           <label>
+                <input type="radio" name="user" value="professor">Professor
+           </label>
+           <label>
+                <input type="radio" name="user" value="aluno">Aluno
+           </label> 
+        </div>
+
+       <div>
+            <label>Caso aluno informe sua série/ano</label>
+            <select id="serie">
+                <option selected disabled value="">Selecione...</option>
+                <option>1º Ano Fund.</option>
+                <option>2º Ano Fund.</option>
+                <option>3º Ano Fund.</option>
+                <option>4º Ano Fund.</option>
+                <option>5º Ano Fund.</option>
+                <option>6º Ano Fund.</option>
+                <option>7º Ano Fund.</option>
+                <option>8º Ano Fund.</option>
+                <option>9º Ano Fund.</option>
+                <option>1º Ano Medio</option>
+                <option>2º Ano Medio</option>
+                <option>3º Ano Medio</option>
+            </select>
+       </div> 
+    </form>
+</body>
+</html>
