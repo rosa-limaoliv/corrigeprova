@@ -4,25 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="style2.css" media="">
+    
 </head>
 <body>
-    <div>
-        <h1 id="titulo">CADASTRE-SE</h1>
-        <p id="subtitulo">Insira seus dados</p>
-        <br>
-    </div>
-
+    <div id="cadastro-container">
+        <div class="login img"><img src="ORANGE TEST.png" alt="Essa é uma imagem verde e amarela contendo a logo do nosso site"></div>
+        
     <form>
         <fieldset class="grupo">
             <div>
                 <label for="nome"><Strong>Nome</Strong></label>
-                <input type="text" name="nome" id="nome" required>
-            </div>
-
-            <div>
-                <label for="sobrenome"><Strong>Sobrenome</Strong></label>
-                <input type="text" name="sobrenome" id="sobrenome" required>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" autocomplete="off" required>
             </div>
         </fieldset>
 
@@ -33,12 +26,14 @@
 
         <div class="campo">
            <label><Strong>Selecione o tipo de Usuário</Strong></label>
+           <br>
            <label>
-                <input type="radio" name="user" value="professor">Professor
+                <input type="radio" name="user" value="professor"><Strong>Professor</Strong>
            </label>
+           <br>
            <label>
-                <input type="radio" name="user" value="aluno">Aluno
-           </label> 
+                <input type="radio" name="user" value="aluno"><Strong>Aluno</Strong>
+            </label> 
         </div>
 
        <div class="campo">
@@ -61,5 +56,6 @@
        </div>
        <button class="botao" type="submit">Concluído</button> 
     </form>
+</div>
 </body>
 </html>
