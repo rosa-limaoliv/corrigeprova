@@ -44,7 +44,7 @@ fieldset {
 }
 
 #grupo {
-
+    border:box;
 }
 
 input, select, textarea, button{
