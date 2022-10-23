@@ -8,31 +8,31 @@
 </head>
 <body>
     <div>
-        <h1>CADASTRE-SE</h1>
-        <p>Insira seus dados</p>
+        <h1 id="titulo">CADASTRE-SE</h1>
+        <p id="subtitulo">Insira seus dados</p>
         <br>
     </div>
 
     <form>
-        <fieldset>
+        <fieldset class="grupo">
             <div>
-                <label>Nome</label>
-                <input type="text" name="nome" id="nome">
+                <label for="nome"><Strong>Nome</Strong></label>
+                <input type="text" name="nome" id="nome" required>
             </div>
 
             <div>
-                <label>Sobrenome</label>
-                <input type="text" name="sobrenome" id="sobrenome">
+                <label for="sobrenome"><Strong>Sobrenome</Strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
         </fieldset>
 
-        <div>
-            <label>Email</label>
-            <input type="email" name="email" id="email">
+        <div class="campo">
+            <label for="sobrenome"><Strong>Email</Strong></label>
+            <input type="email" name="email" id="email" required>
         </div>
 
-        <div>
-           <label>Selecione o tipo de Usuário</label>
+        <div class="campo">
+           <label><Strong>Selecione o tipo de Usuário</Strong></label>
            <label>
                 <input type="radio" name="user" value="professor">Professor
            </label>
@@ -41,8 +41,8 @@
            </label> 
         </div>
 
-       <div>
-            <label>Caso aluno informe sua série/ano</label>
+       <div class="campo">
+            <label><strong>Caso aluno informe sua série/ano</strong></label>
             <select id="serie">
                 <option selected disabled value="">Selecione...</option>
                 <option>1º Ano Fund.</option>
@@ -59,7 +59,7 @@
                 <option>3º Ano Medio</option>
             </select>
        </div>
-       <button type="submit">Concluído</button> 
+       <button class="botao" type="submit">Concluído</button> 
     </form>
 </body>
 </html>
