@@ -62,9 +62,6 @@ input {
     margin-bottom: 20px;
 }
 
-input:focus {
-    border-bottom: 20px solid #db9807e5;
-}
 
 input[type="submit"] {
     text-align: center;
