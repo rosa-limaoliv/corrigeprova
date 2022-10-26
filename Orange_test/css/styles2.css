@@ -24,9 +24,9 @@ a:hover {
     color: #1e8d2d;
 }
 
-/* container login */
+/* container cadastro */
 
-#login-container {
+#cadastro-container {
     background-color: hsl(32, 97%, 58%);
     width: 400px;
     margin-left: auto;
@@ -66,11 +66,6 @@ input:focus {
     border-bottom: 20px solid #db9807e5;
 }
 
-#forgot-pass {
-    text-align: center;
-    display: block;
-}
-
 input[type="submit"] {
     text-align: center;
     text-transform: uppercase;
@@ -84,17 +79,27 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input [type="submit"]:hover {
-    background-color: #205c05;
-    transition: .5s;
-}
-
-.login img {
+.cad img {
     width: 100px;
     height: auto;
 }
 
-#cadastro { 
-    font-weight: bold;
-    color: #323232
+
+.select {
+    margin: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15%;
+}
+
+#Funcao{
+    width: 30%;
+    border-radius: 10px;
+    height: 25px;
+}
+
+#serie {
+    width: 30%;
+    border-radius: 10px;
+    height: 25px;
 }

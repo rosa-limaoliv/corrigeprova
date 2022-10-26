@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="js/bootstrap.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles3.css" media="">
+    <title>Prova</title>
+</head>
+<body>
+    <div class="content">
+        <form action="">
+            <fieldset>
+                <legend>Dados do Professor</legend>
+                <div class="row">
+                    <label for="nome">Escola:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite o nome da escola" autocomplete="off" required>
+                </div>
+                <div class="row">
+                    <label for="sobrenome">Disciplina:</label>
+                    <input type="text" id="disciplina" name="disciplina" placeholder="Informe a disciplina" autocomplete="off"
+                        required>
+                </div>
+                <div class="row">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="e-mail" autocomplete="off" required>
+                </div>
+                <div class="row">
+                    <label for="dtnasc">Data limite</label>
+                    <input type="date" id="dtlimite" name="dtlimite">
+                </div>
+                <div class="row">
+                    <label for="">Nível da prova</label>
+                    <input type="radio" value="Facil" id="facil" name="facil">
+                    <label for="facil">Fácil</label>
+                    <input type="radio" value="Medio" id="medio" name="medio">
+                    <label for="medio">Médio</label>
+                    <input type="radio" value="Dificil" id="dificil" name="dificil">
+                    <label for="dificil">Difícil</label>
+                </div>
+                <div class="row">
+                    <label for="pontos">Pontos da prova</label>
+                    <input type="number" id="pontos" name="pontos" max="10" min="0">
+                </div>
+                <div class="row"></div>
+            </fieldset>
+            <fieldset>
+                <legend>Dados da Prova</legend>
+                <div class="text">
+                    <label for="text">Informe o comando da questão</label>
+                </div>
+                <div class="text">
+                    <textarea name="sobre" id="sobre" cols="30" rows="5" placeholder="Comando da questão."
+                        autocomplete="off">
+                    </textarea>
+                </div>
+                
+                <div class="row">
+                    <input type="file" accept=".pdf, .docx">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
