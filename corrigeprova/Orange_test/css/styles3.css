@@ -44,8 +44,9 @@
     }
 
     label:not([for="facil"], [for="medio"]) {
-        display: inline-block;
+        display: inline;
         width: 120px;
+        padding: 10px;
     }
 
     input {
