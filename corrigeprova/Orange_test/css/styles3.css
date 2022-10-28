@@ -96,12 +96,6 @@
         margin-bottom: 10px;
     }
 
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-    }
-
     input[type="submit"],
     input[type="reset"] {
         padding: 5px 10px;
