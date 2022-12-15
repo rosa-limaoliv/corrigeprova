@@ -89,3 +89,16 @@ input[type="submit"] {
     font-weight: bold;
     color: #323232
 }
+
+.rosa {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #FFF;
+    background-color: #0b6935;
+    cursor: pointer;
+}
