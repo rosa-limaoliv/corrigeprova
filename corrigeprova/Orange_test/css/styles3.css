@@ -44,8 +44,9 @@
     }
 
     label:not([for="facil"], [for="medio"]) {
-        display: inline-block;
+        display: inline;
         width: 120px;
+        padding: 10px;
     }
 
     input {
@@ -93,12 +94,6 @@
     input[type="checkbox"] {
         margin-top: 10px;
         margin-bottom: 10px;
-    }
-
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
     }
 
     input[type="submit"],
